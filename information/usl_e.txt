@@ -1,0 +1,18 @@
+As part of the course project, it is necessary to develop an object-oriented information system that models
+the "Shooting range" subject area, based on the Weapon and Gun classes presented in task variant No. 5.
+The weapon.exe program being developed is intended for use in higher educational institutions to demonstrate
+knowledge acquired by a student in the field of technology for developing object-oriented programs using
+the C++ language.
+The software product must operate in the following modes:
+a) demonstration of the description of the Weapon and Gun classes and the performance of class member functions:
+1) constructors: Weapon (int Capacity, int Caliber, int Distance), Gun (int Capacity, int Caliber, int Distance,
+int Number, char *BarrelType);
+2) destructor;
+3) Actionxx member functions;
+b) demonstrating the performance of the Gun class when overloading the binary operator ! (new action - put / remove
+from the fuse);
+c) demonstration of the operability of the Weapon and Gun classes with single inheritance;
+d) help system:
+1) about the program (programme document “Program Description”);
+2) operator's manual (program document "Operator's manual");
+3) about the author.

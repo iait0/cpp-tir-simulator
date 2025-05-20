@@ -1,0 +1,24 @@
+1. General information
+The weapon.exe program is designed to demonstrate the knowledge acquired by the trainee
+in the field of technology for developing object-oriented programs using the C++ language.
+The program requires Windows OS.
+
+2. Functionality
+This program simulates the operation of a shooting range. Program functionality:
+Creation of a shooting range;
+Adding/removing visitors;
+Adding / removing weapons;
+Adding ammo;
+Changing the characteristics of each object;
+
+3. Used technical means
+A computer based on x86-64 architecture with a monitor and keyboard.
+
+4. Call and download
+The program is launched by launching the weapon.exe file
+
+5. Input data
+Input data - configuration text file, service information files, keyboard input.
+
+6. Imprint
+The output data is the standard output stream and the file stream (data save file).

@@ -1,0 +1,263 @@
+Donetsk National Technical University
+Faculty of ISP
+Department of SE
+Course project
+discipline: "Object-oriented programming"
+on the topic: "Object-oriented system "Shooting Range""
+Supervisor:
+Senior Lecturer
+Grishchenko D. A.
+Senior Lecturer
+Shchedrin S.V.
+Assistant
+Artyomenko O. G.
+Performed:
+Group student PI-22V
+Polyakova V. E.
+Donetsk 2023
+Start: <ENTER>
+Exit: <ESC>
+Operator's manual: <s>
+Change language: <TAB>
+Change configuration file: <1>
+About the author: <a>
+About the program: <d>
+Use default configuration file <2>
+No such configuration file exists! The program will use the default file
+There are extra lines in the configuration file! The program will use the default file
+There are not enough lines in the configuration file! The program will use the default file
+Specify the path to the configuration file:
+You didn't provide a path!
+Main menu
+<1> Create a shooting range and become a visitor
+<6> View information about objects
+<7> Count number of objects
+<8> Write the state of objects to a file
+Back: <ESC>
+Enter the opening hours of the shooting range(in hours):
+You need to enter a number! Retype:
+The shooting range cannot work more than 8 hours!
+The operating time cannot be less than 1 hour!
+Enter the shooting gallery range(in English letters):
+You didn't enter an address!
+Enter name (in English letters):
+You didn't enter a name!
+Enter your age:
+Age cannot be negative!
+Want to get a visitor card? Y/N
+The visitor's card has been opened!
+Your card number:
+Card not made
+<1> Add a weapon to the shooting range
+<3> Select visitor
+<2> Add bullets
+Delete visitor: <z>
+<1> Add grenades
+<2> Add gun
+<3> Add assault riffle
+Enter the number of grenades:
+Enter the radius of the grenade (in meters):
+Grenades Added!
+Grenade damage radius cannot be negative! Retype:
+The radius of destruction of a grenade cannot be more than 7 meters! Retype:
+The number of grenades cannot be negative! Retype:
+Enter capacity:
+Capacity cannot be negative! Retype:
+Capacity cannot be more than 10! Retype:
+Enter pistol ammo caliber:
+Caliber cannot be negative! Retype:
+Caliber cannot be larger than 12.7! Retype:
+Enter the aiming range of the pistol (in meters):
+Sighting range cannot be negative! Retype:
+Sighting range cannot be more than 50 meters! Retype:
+Enter pistol number:
+The pistol number must contain 4 digits! Retype:
+Choose barrel type:
+<1> Smoothbore
+<2> Rifled
+The gun has been created!
+Capacity cannot be more than 40! Retype:
+Enter the caliber of cartridges for the assault rifle:
+Caliber cannot be more than 9! Retype:
+Enter the aiming range of the assault rifle (in meters):
+Sighting range cannot be more than 1000 meters! Retype:
+Enter assault rifle number:
+The assault rifle number must contain 4 digits! Retype:
+Smoothbore
+Rifled
+The assault rifle has been created!
+You have not added a weapon to the shooting range!
+You didn't take the ammo!
+Enter the number of bullets:
+The number of bullets must not be negative! Retype:
+You cannot take more than 100 pieces! Retype:
+Enter ammo penetration (up to 100):
+Ammo penetration cannot be negative! Retype:
+The penetrating ability of bullets cannot be more than 100! Retype:
+Bullets added!
+The bullets has already been added!
+<4> Get extra bullets
+You haven't added a weapon to the shooting range yet!
+Enter the amount of bullets you want to take:
+You haven't added ammo to the shooting range yet!
+<5> Take extra grenades
+Enter the amount of grenades you want to take:
+The number of grenades must not be negative! Retype:
+You cannot take more than 10 pieces! Retype:
+You haven't added grenades to the shooting range yet!
+The number of grenades cannot be more than 10! Retype:
+You've taken extra bullets!
+You have taken extra grenades!
+Your rating: 
+Objects of shooting range class created: 
+<1> Information about the shooting range
+<2> Information about the visitors
+<3> Information about bullets
+<4> Information about grenades
+<5> Information about pistols
+<6> Information about assault rifle
+Shooting range working Hours: 
+Shooting range address: 
+Visitor name: 
+Visitor age: 
+Visitor card (0-missing): 
+Visitor Rating: 
+Number of bullets: 
+Bullets penetration: 
+Grenades have not been added yet!
+The gun has not been added yet!
+The assault rifle has not been added yet!
+Grenades 
+Number of grenades: 
+Pin in a pomegranate
+The pin is taken out of the grenade
+Hit Rating: 
+Back: <q>
+Next: <e>
+Grenade damage radius (in meters): 
+Gun 
+Magazine capacity: 
+Caliber ammo: 
+Sighting range: 
+Number: 
+Barrel type: 
+Nuzzle attached
+Nuzzle not attached
+Number of bullets in the magazine: 
+Weapon on safety
+Weapon not on safety
+Assault rifle 
+Single shooting mode
+Automatic firing mode
+Scope attached
+Scope not attached
+Created objects of the visitor class: 
+Grenade class objects created: 
+Created pistol class objects: 
+assault rifle class objects created: 
+Ammo class objects created: 
+<1> Select grenades
+<2> Select a gun
+<3> Select assault rifle
+Select: <ENTER>
+<1> Pull the pin out of the grenade
+<2> Throw a grenade
+<3> View hit rate
+Hit rate: 
+<1> Remove the fuse
+<2> Shot
+<3> Put on the nozzle
+<3> Remove the nozzle
+<4> Recharge
+<5> Discharge
+<3> See how many grenades are left
+<6> See how many ammo are left
+Pomegranate left: 
+Bullets in magazine: 
+Bullets per box: 
+<8> Change shooting mode
+<3> Put on the scope
+<3> Remove the scope
+<2> Load objects from file
+You haven't added a pistol to the shooting range yet!
+You haven't added the assault rifle to the shooting range yet!
+File with information about objects is not open!
+There are extra lines in the object file! Further creation of objects from files is not possible
+There are not enough lines in the feature file! Further creation of objects from files is not possible
+The shooting range are already created!
+The shooting range and the visitor are created!
+Error in file data for object creation! The object will not be created!
+<2> Add grenades
+<3> Add a gun
+<4> Add assault rifle
+<5> Add bullets
+First you need to create a shooting range!
+<9> Load objects from a file
+You didn't pull the pin out of the grenade!
+You threw a grenade
+Pomegranate left: 
+You didn't hit!
+*BOOM*
+The grenades are out!
+The pin has already been pulled!
+The gun has not been released from the safety lock!
+You shoot
+Ammo left: 
+You didn't hit!
+Ammo is out!
+Weapon reloaded
+The magazine is full!
+Weapon unloaded
+The weapon is already unloaded
+The gun is out of safety!
+The gun is on safety!
+You changed the firing mode to automatic
+You changed the fire mode to single
+The assault rifle has a scope. Want to take aim? Y/N
+The assault rifle has not been released from the safety lock!
+You didn't hit!
+The assault rifle is on safety!
+You pulled the pin out of a grenade!
+The assault rifle is out of safety!
+You already have a visitor card!
+Get a visitor card: <x>
+Reset your rating: <c>
+Your rating has been reset!
+Condition: <f>
+File 
+ not open! Recording the state of objects is not possible!
+Shooting range:
+Visitors:
+Grenades:
+Bullets:
+Gun:
+Assault rifle:
+The state of the objects is written to a file!
+The file is not open!
+There are extra lines in the language file! The default language file will be used!
+There are not enough lines in the language file! The default language file will be used!
+The new language file is not open! The default language file will be used!
+<6> Add new visitor
+New visitor added!
+<0> Add new visitor
+Select weapon: <1>
+The visitor has been deleted!
+Visitor: 
+There are no visitors in the shooting range!
+Edit address: <1>
+Edit working hours: <2>
+Edit name: <1>
+Edit age: <2>
+Edit power: <1>
+Edit quantity: <2>
+Edit damage radius: <1>
+Edit magazine size: <1>
+Edit caliber: <2>
+Edit target range: <3>
+Edit number: <4>
+Edit barrel type: <5>
+Delete: <z>
+Ammo removed!
+Grenades removed!
+Gun removed!
+The machine has been removed!

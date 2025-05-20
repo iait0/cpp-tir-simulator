@@ -1,0 +1,12 @@
+language\Cap_Rus.txt
+language\Cap_Eng.txt
+information\help_r.txt
+information\help_e.txt
+information\usl_r.txt
+information\usl_e.txt
+information\inf_r.txt
+information\inf_e.txt
+information\author_r.txt
+information\author_e.txt
+objfile\objects.txt
+objfile\obj_inf.txt

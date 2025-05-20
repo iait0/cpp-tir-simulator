@@ -1,0 +1,38 @@
+1. Purpose of the program
+The program is intended for use in higher education institutions in order to demonstrate knowledge,
+acquired by a student in the field of technology for developing object-oriented programs using the C++ language.
+
+2. Program execution conditions
+Input device (keyboard)
+Operating system - Windows OS family
+
+3.Program execution
+The program is launched by launching the weapon.exe file
+
+4. Messages to the operator
+1) "The file is not open!" - Incorrectly specified path to the localization file in config.txt or there is no
+file with the same name.
+2) “There are extra lines in the language file! The program will be terminated! / "There are not enough lines in
+the language file! Job programs will be terminated! - the localization file does not meet the requirements,
+return the original content (263 lines).
+3) "Missing configuration file! The program has been terminated! - Configuration file config.txt was not found in
+program folder.
+4) “There are extra lines in the configuration file! The program has been terminated! / "There are not enough lines
+in the configuration file! The program has been terminated! - configuration file config.txt does not meet the
+requirements, return original content (12 lines).
+5) "File with information about objects is not open!" - the file with information for creating objects was not found,
+check the file path and name.
+6) “There are extra lines in the object file! Further creation of objects from files is impossible" / "In the file
+of objects not enough lines! Further creation of objects from files is impossible" - the file does not meet the
+requirements, return the original content (6 lines).
+7) "Error in the file data for creating objects! The object will not be created!" - object file does not match
+requirements, return the original content or verify that the data entered into it is correct:
+The 1st line is designed to create a shooting range and a visitor: *shooting time (up to 8 hours)* *shooting gallery
+address* *visitor name* *visitor's age* *visitor card: 1-start, 0-don't start* = 5 words per line.
+2nd line is for creating grenades: *number of grenades (up to 10)* *grenade damage radius
+(up to 7)* = 2 words per line.
+3rd line is for creating a pistol: *magazine size (up to 10)* *caliber (up to 12.7)* *sighting range (up to 50)*
+*four-digit pistol number* *barrel type: 1-Smoothbore, 2-Rifled* = 5 words per line.
+The 4th line is for creating an assault rifle: *magazine size (up to 45)* *caliber (up to 9)* *sighting range
+(up to 1000)* *four-digit machine number* *barrel type: 1-Smoothbore, 2-Rifled* = 5 words per line.
+The 5th line is for creating one more visitor: *name* *age* * visitor card: 1-start, 0-don't start* = 3 words per line.
