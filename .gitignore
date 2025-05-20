@@ -7,10 +7,6 @@
 *.a
 *.dll
 *.lib
-build/
-bin/
-obj/
-.vscode/
 .idea/
 *.suo
 *.user
@@ -21,9 +17,7 @@ obj/
 *.out
 *.o
 *.obj
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-.vs/
 x64/
+Debug/
+*.vcxproj
+*.filters
